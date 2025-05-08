@@ -1,56 +1,56 @@
-# SmartExam-Secure-Online-Quiz-Portal
+# 🎓 SmartExam - Secure Online Quiz Portal
+
 ## 📝 Project Overview
-This system offers a seamless platform for admins, professors, and candidates to interact in a secure quiz environment. Admins can manage quiz categories, questions, and student records, while candidates can attempt published quizzes and receive instant feedback. With support for multimedia questions and automated malpractice prevention, the platform ensures a fair and engaging learning experience.
 
-🚀 ## Features 
-🔐 User Authentication
-Secure JWT-based login and registration.
+**SmartExam** is a full-stack quiz management system designed to provide a secure and user-friendly environment for administering online quizzes. It enables **admins**, **professors**, and **candidates** to perform their respective tasks efficiently. With features like **role-based access control**, **multimedia support**, and **malpractice prevention**, it ensures a reliable and inclusive assessment experience.
 
-Follows industry standards to protect user credentials and session integrity.
+---
 
-👤 Profile Management
-Create: Users and admins can register with necessary details.
+## 🚀 Features
 
-View & Edit: Update and manage profile information at any time.
+- **🔐 User Authentication**
+  - Secure **JWT-based login and registration** system.
+  - Adheres to **industry-standard** practices for protecting user credentials and managing sessions.
 
-🛠️ Admin Responsibilities
-Add and manage quiz categories and related quizzes.
+- **👤 Profile Management**
+  - **Create**: Users and admins can register with necessary details.
+  - **View & Edit**: Users and admins can view and update their profile information.
 
-Create, update, or delete quizzes and individual questions.
+- **🛠️ Admin Responsibilities**
+  - Add and manage **quiz categories** and related quizzes.
+  - Create, update, or delete **quizzes** and individual **questions**.
+  - Assign **marks** and set **passing percentages**.
+  - View and manage **candidate quiz results**.
 
-Assign marks and set passing percentages.
+- **🎯 User Responsibilities**
+  - Browse and attempt quizzes published by the admin.
+  - View results instantly upon submission.
+  - **Auto-submission** of answers when switching browser tabs to discourage malpractice.
 
-View and manage student results.
+- **🖼️ Multimedia Support**
+  - Supports **text, images, audio, and video** in quiz questions for interactive and inclusive learning.
 
-🎯 User Responsibilities
-Browse and attempt available quizzes.
+- **💬 Messaging**
+  - Users can send messages which are securely stored in the database for communication tracking.
 
-View results instantly after submission.
+---
 
-Answers are auto-submitted when switching browser tabs to discourage cheating.
+## 🧰 Tech Stack
 
-🖼️ Multimedia Support
-Supports text, images, audio, and video in quiz questions for diverse learning needs.
+- **Frontend**: Angular  
+- **Backend**: Java Spring Boot  
+- **Database**: MySQL  
+- **Authentication**: JWT (JSON Web Tokens)
 
-💬 Messaging
-Users can send messages that are stored in the database for communication tracking.
+---
 
-🧰 Tech Stack
-Frontend: Angular
+## ✅ Key Highlights
 
-Backend: Java Spring Boot
+- Implemented **role-based access control** for differentiated user permissions.
+- Enabled creation of **50+ unique, customizable quizzes**.
+- Ensured secure handling of **student data** in line with **university privacy policies**.
+- Built-in **auto-submission** on tab-switching to prevent malpractice.
+- Designed to be **scalable** for future enhancements like analytics and certification modules.
 
-Database: MySQL
+---
 
-Authentication: JWT (JSON Web Tokens)
-
-✅ Key Highlights
-Implemented role-based access control for differentiated user permissions.
-
-Enabled creation of 50+ unique, customizable quizzes.
-
-Ensured secure handling of student data in line with university privacy policies.
-
-Built-in auto-submission on tab-switching to prevent malpractice.
-
-Scalable structure for adding future enhancements like analytics and certification.
