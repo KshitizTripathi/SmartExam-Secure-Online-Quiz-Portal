@@ -1,1 +1,2 @@
-# SmartExam-Secure-Online-Quiz-Portal
+This is a full-stack Quiz Management System built using Java Spring Boot for the backend, Angular for the frontend, and MySQL as the database. It features secure JWT-based login and registration, with role-based access control for admins, professors, and candidates. Admins can add categories, create/edit/delete quizzes and questions, and view student results. Candidates can attempt quizzes and receive scores instantly. The system includes auto-submission on browser tab switch to prevent malpractice and supports message storage in the database. All student data is securely managed in compliance with university privacy standards.
+
