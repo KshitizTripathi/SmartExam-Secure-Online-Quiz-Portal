@@ -1,7 +1,7 @@
 📝 Project Overview
 This system offers a seamless platform for admins, professors, and candidates to interact in a secure quiz environment. Admins can manage quiz categories, questions, and student records, while candidates can attempt published quizzes and receive instant feedback. With support for multimedia questions and automated malpractice prevention, the platform ensures a fair and engaging learning experience.
 
-**This text is bold**🚀 Features **This text is bold**
+🚀 ## Features 
 🔐 User Authentication
 Secure JWT-based login and registration.
 
